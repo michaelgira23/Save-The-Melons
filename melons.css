@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+* {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.navbar-logo {
+    padding: 0.5em;
+}
+
+.melon-logo {
+    height: 100%;
+}
+
+.navbar-brand small {
+    font-weight: 300;
+}
+
+.navbar-nav a {
+    font-weight: 400;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bio h3 {
+    font-weight: 600;
+}
+
+.bio img {
+    height: 20em;
+}
+
+.qr-code {
+    display: block;
+}
+
+.bitcoin-address {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.footer {
+    margin-bottom: 0;
+}
+
+.footer .container {
+    width: 100%;
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.branch-label {
+    font-weight: 600;
+}
+
+.directory {
+    list-style-type: none;
+    border-left: 0.25em solid;
+    padding: 0 1em 0 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.credit {
+    display: flex;
+    align-content: flex-end;
+    align-self: flex-end;
+}
+
+.jumbotron {
+    margin: 0;
+}
+
+.melon1 {
+    min-height: 1000px;
+    background: transparent;
+    padding-top: 50px;
+}
+
+.melon2 {
+    background: transparent;
+    min-height: 500px;
+}
